@@ -1,0 +1,161 @@
+body {
+    background-color: white
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: navy;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.foto-1 {
+    height: 600, 300;
+}
+
+h2 {
+    color: navy;
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.parrafo-paquetes {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: start;
+}
+
+.nav-link {
+    font-size: large;
+    font-weight: 600;
+    color: #52658c;
+}
+
+.bus-catering-naranja {
+    color: #f58634;
+    font-size: 0.75em;
+}
+
+.btn-plomo {
+    background-color: #52658c;
+    border: 2px solid #52658c;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-plomo:hover {
+    background-color: white;
+    border: 4px solid #f58634;
+    color: #f58634;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none
+}
+
+.link-legales {
+    text-decoration: none;
+    padding-x: 2px;
+    border-right: #52658c;
+    color: #52658c;
+}
+
+.link-legales:hover {
+    color: #f58634;
+}
+
+.navbar-toggler {
+    border: 0
+}
+
+.texto-footer {
+    font-size: 18px;
+}
+
+.titulopags {
+    color: navy;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.display-3 {
+    font-weight: 600;
+}
+
+.paquete__titulo {
+    height: 50px;
+    align-items: center;
+}
+
+.paquete__descripcion {
+    height: 50px;
+    align-items: center;
+}
+
+div.row.paquete__titulo {
+    height: 100px;
+    text-align: center;
+}
+
+div.row.paquete__descripcion {
+    height: 70px;
+    text-align: center;
+    justify-content: start;
+}
+
+div.row.m-2 {
+    border: #52658c;
+    border-radius: 3%;
+    background-color: #f8f9fa
+}
+
+div.col-lg-6.dflex {
+    padding-left: 6px;
+    padding-right: 3px;
+}
+
+input.btn.btn-secondary.btn-lg.btn-enviar {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #52658c;
+    --bs-btn-border-color: #52658c;
+    --bs-btn-hover-color: #f58634;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: #f58634;
+}
+
+/* ---COMO FUNCIONAMOS - PASOS A SEGUIR ---*/
+
+.pasos {
+    padding: 10px;
+    max-width: 330px;
+}
+
+.pasos-icon {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+}
+
+.pasos-icon i {
+    color: #f58634;
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+.pasos-texto {
+    text-align: center;
+    min-height: 95px;
+}
+
+.pasos-texto h3 {
+    color: #52658c
+}

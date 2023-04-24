@@ -1,14 +1,26 @@
 
+.display-3 {
+    font-size: 0;
+    font-weight: 0;
+}
 
-h1.titulo-brand {
+.titulo-brand {
     font-size: 3rem;
 
-    span {
-    font-size:.75em;
-    color: $color-2brand
-    }
 }
+
+
+.bus-catering-naranja {
+    font-size:.75em;
+    color: $color-2brand;
+
+    }
 
 .foto-1 {
     height: 600, 300;
+}
+
+.texto-nosotros {
+    font-size: 1.5rem;
+    text-align: left;
 }

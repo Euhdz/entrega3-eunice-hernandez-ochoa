@@ -83,16 +83,27 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   --bs-btn-hover-border-color: $color-2brand;
 }
 
-h1.titulo-brand {
+.display-3 {
+  font-size: 0;
+  font-weight: 0;
+}
+
+.titulo-brand {
   font-size: 3rem;
 }
-h1.titulo-brand span {
+
+.bus-catering-naranja {
   font-size: 0.75em;
   color: #F58634;
 }
 
 .foto-1 {
   height: 600, 300;
+}
+
+.texto-nosotros {
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .parrafo-paquetes {

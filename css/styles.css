@@ -1,7 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+}
+body h1 {
+  color: navy;
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+body h2 {
+  color: #52658C;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.25rem;
+}
+body h3 {
+  color: black;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+body h3 .desctitulo {
+  text-align: center;
+}
+body ul {
+  list-style: none;
+}
+
+header {
+  margin-bottom: 5px;
+}
+
+.nav-link {
+  font-size: large;
+  font-weight: 600;
+  color: #52658C;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.link-legales {
+  text-decoration: none;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-right: #52658c;
+  color: #52658c;
+}
+.link-legales:hover {
+  color: #F58634;
+}
+
+.texto-footer {
+  font-size: 18px;
+}
+
+.btn-plomo {
+  background-color: #52658C;
+  border: 2px solid #52658C;
+  color: white;
+  font-weight: 600;
+}
+.btn-plomo:hover {
+  background-color: white;
+  border: 4px solid #F58634;
+  color: #F58634;
+  font-weight: 600;
+}
+
+input.btn.btn-secondary.btn-lg.btn-enviar {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: $color-1brand;
+  --bs-btn-border-color: $color-1brand;
+  --bs-btn-hover-color: $color-2brand;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: $color-2brand;
+}
+
+h1.titulo-brand {
+  font-size: 3rem;
+}
+h1.titulo-brand span {
+  font-size: 0.75em;
+  color: #F58634;
+}
+
+.foto-1 {
+  height: 600, 300;
+}
+
+.parrafo-paquetes {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: start;
+}
+
+.pasos {
+  padding: 10px;
+  max-width: 330px;
+}
+.pasos-icon {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+}
+.pasos-icon i {
+  color: #F58634;
+  font-size: 2.5rem;
+  padding: 5px;
+}
+.pasos-texto {
+  text-align: center;
+  min-height: 95px;
+}
+.pasos-texto h3 {
+  color: #52658C;
+}
+
+div.row.m-2 {
+  border: #52658c;
+  border-radius: 3%;
+  background-color: #f8f9fa;
+}
+
+div.col-lg-6.dflex {
+  padding-left: 6px;
+  padding-right: 3px;
+}
+
+input.btn.btn-secondary.btn-lg.btn-enviar {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: $color-1brand;
+  --bs-btn-border-color: $color-1brand;
+  --bs-btn-hover-color: $color-2brand;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: $color-2brand;
 }
 
 /*# sourceMappingURL=styles.css.map */

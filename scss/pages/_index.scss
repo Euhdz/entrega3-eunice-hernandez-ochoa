@@ -1,15 +1,12 @@
 
-h1 {
-    font-family: Arial, sans-serif;
-    color: navy;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-}
 
-.bus-catering-naranja {
-    color: #f58634;
-    font-size: 0.75em;
+h1.titulo-brand {
+    font-size: 3rem;
+
+    span {
+    font-size:.75em;
+    color: $color2brand
+    }
 }
 
 .foto-1 {

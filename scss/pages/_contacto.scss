@@ -1,0 +1,19 @@
+div.row.m-2 {
+    border: #52658c;
+    border-radius: 3%;
+    background-color: #f8f9fa
+}
+
+div.col-lg-6.dflex {
+    padding-left: 6px;
+    padding-right: 3px;
+}
+
+input.btn.btn-secondary.btn-lg.btn-enviar {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: $color-1brand;
+    --bs-btn-border-color: $color-1brand;
+    --bs-btn-hover-color: $color-2brand;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: $color-2brand;
+}

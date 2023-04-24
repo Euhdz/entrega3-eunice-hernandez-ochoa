@@ -1,11 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+$color-1brand: #52658C;
+$color-2brand: #F58634;
+$color-title: navy;
+$color-text: black;
+
 body {
-    background-color: white font-family: Arial, Helvetica, sans-serif;
-}
+    background-color: white;
 
-h2 {
-    color: navy;
-    font-size: 2.3rem;
-    font-weight: bold;
-    text-align: center;
-}
+    h1 {
+        ====convertir los h2 en h1=====color: $color-title;
+        font-size: 2.25rem;
+        font-weight: bold;
+        text-align: center;
+    }
 
+
+    h2 {
+        color: $color-1brand;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding: .25rem;
+
+    }
+
+
+    h3 {
+        color: $color-text;
+        font-size: 1rem;
+        padding: .25rem;
+
+        .desctitulo {
+            text-align: center
+        }
+    }
+
+    ul {
+        list-style: none
+    }
+
+
+}

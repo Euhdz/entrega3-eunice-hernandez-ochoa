@@ -1,0 +1,30 @@
+.pasos {
+    padding: 10px;
+    max-width: 330px;
+
+    &-icon {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3px;
+
+        & i {
+            color: $color-2brand;
+            font-size: 2.5rem;
+            padding: 5px;
+
+        }
+    }
+
+    &-texto {
+        text-align: center;
+        min-height: 95px;
+
+        & h3 {
+            color: $color-1brand
+        }
+    }
+
+
+}

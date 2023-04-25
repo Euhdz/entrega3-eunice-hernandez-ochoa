@@ -52,29 +52,26 @@ header {
   border: 0;
 }
 
-.card {
-  padding: 3%;
-  max-width: 330 px;
+.card-servicios {
   border: medium solid #F58634;
   border-radius: 5%;
+  box-shadow: 7px 7px 3px 1px rgba(245, 134, 52, 0.7);
+  background-color: rgb(248, 249, 250);
 }
-.card__title {
+.card-servicios__title {
   text-align: center;
 }
-.card__list {
-  padding: 0;
+.card-servicios__title :hover {
+  transform: scale(1.2);
 }
-.card__item {
-  align-content: center;
-  justify-content: center;
+.card-servicios__list {
+  text-align: center;
 }
-.card__img {
-  height: auto;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 3px;
+.card-servicios__list :hover {
+  transform: scale(1.2);
+}
+.card-servicios__imagen {
+  border-radius: 15%;
 }
 
 .link-legales {

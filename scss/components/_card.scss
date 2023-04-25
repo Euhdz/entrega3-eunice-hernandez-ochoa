@@ -1,41 +1,38 @@
-
-
-
-.card {
-
-    padding: 3%;
-    max-width: 330 px;
+.card-servicios {
 
     border: medium solid $color-2brand;
     border-radius: 5%;
+    box-shadow: 7px 7px 3px 1px rgba($color-2brand, $alpha: 0.7);
+    background-color: $color-bg2;
+
+
 
     &__title {
         text-align: center;
-      
+
+        :hover {
+            transform: scale(1.2);
+        }
+
     }
 
-    &__body {
-       
-
-    }
 
     &__list {
+        text-align: center;
 
-        padding: 0;
+        :hover {
+            transform: scale(1.2);
+        }
     }
 
     &__item {
-        align-content: center;
-        justify-content: center;
+
     }
 
-    &__img {
-        height: auto;
-        width: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 3px;
+    &__imagen {
+
+        border-radius: 15%;
+
     }
 
 }

@@ -52,6 +52,31 @@ header {
   border: 0;
 }
 
+.card {
+  padding: 3%;
+  max-width: 330 px;
+  border: medium solid #F58634;
+  border-radius: 5%;
+}
+.card__title {
+  text-align: center;
+}
+.card__list {
+  padding: 0;
+}
+.card__item {
+  align-content: center;
+  justify-content: center;
+}
+.card__img {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+}
+
 .link-legales {
   text-decoration: none;
   padding-left: 2px;
@@ -120,7 +145,6 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
 }
 
 .pasos {
-  padding: 10px;
   max-width: 330px;
 }
 .pasos-icon {

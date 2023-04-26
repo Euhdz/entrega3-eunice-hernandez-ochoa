@@ -33,7 +33,7 @@ body ul {
 }
 body .parrafo-titulopags {
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 0.25rem;
   text-align: center;
 }
@@ -136,11 +136,6 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   --bs-btn-hover-border-color: $color-2brand;
 }
 
-.display-3 {
-  font-size: 0;
-  font-weight: 0;
-}
-
 .titulo-brand {
   font-size: 3rem;
 }
@@ -150,20 +145,9 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   color: #F58634;
 }
 
-.foto-1 {
-  height: 600, 300;
-}
-
 .texto-nosotros {
   font-size: 1.5rem;
   text-align: left;
-}
-
-.parrafo-paquetes {
-  color: black;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: start;
 }
 
 .pasos {
@@ -189,7 +173,7 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   color: #52658C;
 }
 
-div.row.border.m-2 {
+div.row.m-2 {
   border: #52658c;
   border-radius: 3%;
   background-color: #f8f9fa;
@@ -201,12 +185,20 @@ div.col-lg-6.dflex {
 }
 
 input.btn.btn-secondary.btn-lg.btn-enviar {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: $color-1brand;
-  --bs-btn-border-color: $color-1brand;
-  --bs-btn-hover-color: $color-2brand;
-  --bs-btn-hover-bg: white;
-  --bs-btn-hover-border-color: $color-2brand;
+  background-color: #52658C;
+  border: 2px solid #52658C;
+  color: white;
+  font-weight: 300;
+}
+input.btn.btn-secondary.btn-lg.btn-enviar:hover {
+  background-color: white;
+  border: 2px solid #F58634;
+  color: #F58634;
+  font-weight: 300;
+}
+
+h2.subtitulo-contacto {
+  text-align: left;
 }
 
 /*# sourceMappingURL=styles.css.map */

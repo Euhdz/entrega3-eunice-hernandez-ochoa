@@ -134,13 +134,6 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   text-align: left;
 }
 
-.parrafo-paquetes {
-  color: black;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: start;
-}
-
 .pasos {
   max-width: 330px;
 }
@@ -182,6 +175,10 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   --bs-btn-hover-color: $color-2brand;
   --bs-btn-hover-bg: white;
   --bs-btn-hover-border-color: $color-2brand;
+}
+
+h2.subtitulo-contacto {
+  text-align: left;
 }
 
 /*# sourceMappingURL=styles.css.map */

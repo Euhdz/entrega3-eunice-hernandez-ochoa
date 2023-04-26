@@ -9,13 +9,23 @@ div.col-lg-6.dflex {
     padding-right: 3px;
 }
 
+
 input.btn.btn-secondary.btn-lg.btn-enviar {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: $color-1brand;
-    --bs-btn-border-color: $color-1brand;
-    --bs-btn-hover-color: $color-2brand;
-    --bs-btn-hover-bg: white;
-    --bs-btn-hover-border-color: $color-2brand;
+    background-color: $color-1brand;
+    border: 2px solid $color-1brand;
+    color: white;
+    font-weight: 300;
+
+    &:hover {
+        background-color: white;
+    border: 2px solid $color-2brand;
+    color: $color-2brand;
+    font-weight: 300;
+    }
+}
+
+h2.subtitulo-contacto {
+   text-align: left;
 }
 
 h2.subtitulo-contacto {

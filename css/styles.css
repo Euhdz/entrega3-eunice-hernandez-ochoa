@@ -157,6 +157,15 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   text-align: left;
 }
 
+.titulo-nosotros-highlight {
+  text-align: left;
+}
+
+.texto-nosotros-highlight {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
 .pasos {
   max-width: 330px;
 }

@@ -38,6 +38,11 @@ body .parrafo-titulopags {
   text-align: center;
 }
 
+@media only screen and (max-width: 991px) {
+  .invertir-orden {
+    flex-direction: column-reverse;
+  }
+}
 header {
   margin-bottom: 5px;
 }
@@ -187,6 +192,38 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
 }
 .pasos-texto h3 {
   color: #52658C;
+}
+
+.caja-clientes-satisfechos {
+  background-image: url(../img/cf-happy-customers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10rem;
+  vertical-align: middle;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.titulo-clientes-satisfechos {
+  color: white;
+  font-size: 1.1rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  justify-items: center;
+  background-color: #52658C;
+  opacity: 0.8;
+  max-width: 80%;
+}
+.titulo-clientes-satisfechos h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.testimoniales {
+  font-size: 1.1rem;
+  text-align: center;
 }
 
 div.row.m-2 {

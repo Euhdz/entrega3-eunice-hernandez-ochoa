@@ -55,3 +55,10 @@ body {
     }
 
 }
+
+@media only screen and (max-width: 991px) {
+    .invertir-orden {
+               flex-direction: column-reverse;
+       
+    }
+}

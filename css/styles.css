@@ -171,6 +171,61 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   text-align: left;
 }
 
+.caja-serviciosdetallados {
+  background-image: url(../img/s-coffeebreak-detalle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.titulo-serviciosdetallados {
+  color: white;
+  font-size: 1.1rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  justify-items: center;
+  background-color: #52658C;
+  opacity: 0.8;
+  max-width: 80%;
+}
+.titulo-serviciosdetallados h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.card-serviciosdetallados {
+  border: thin solid #52658C;
+  border-radius: 0%;
+  box-shadow: 7px 7px 3px 1px rgba(82, 101, 140, 0.7);
+  background-color: rgb(248, 249, 250);
+  opacity: 0.9;
+  min-height: 35rem;
+  padding-top: 1.5rem;
+}
+.card-serviciosdetallados__title {
+  text-align: center;
+  min-height: 5.5rem;
+}
+.card-serviciosdetallados__title h3 {
+  color: #52658C;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-serviciosdetallados__title p {
+  line-height: 1.2rem;
+}
+.card-serviciosdetallados__descripcion {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.card-serviciosdetallados__descripcion h4 {
+  font-size: 1.1rem;
+}
+
 .pasos {
   max-width: 330px;
 }
@@ -199,7 +254,6 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 10rem;
-  vertical-align: middle;
   padding-top: 3%;
   padding-bottom: 3%;
 }

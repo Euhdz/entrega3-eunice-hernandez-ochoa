@@ -1,3 +1,68 @@
-// Conforme se agregue info en esta página se incluirán aquí sus estilos.
-// Por lo pronto los estilos están incluidos en los archivos de componentes sass y base.
+.caja-serviciosdetallados {
+    background-image: url(../img/s-coffeebreak-detalle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
 
+}
+
+
+
+.titulo-serviciosdetallados {
+    color: white;
+    font-size: 1.1rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    justify-items: center;
+    background-color: $color-1brand;
+    opacity: .8;
+    max-width: 80%;
+
+
+    & h2 {
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+}
+
+.card-serviciosdetallados {
+
+    border: thin solid $color-1brand;
+    border-radius: 0%;
+    box-shadow: 7px 7px 3px 1px rgba($color-1brand, $alpha: 0.7);
+    background-color: $color-bg2;
+    opacity: .9;
+    min-height: 35rem;
+    padding-top: 1.5rem;
+
+
+    &__title {
+        text-align: center;
+        min-height: 5.5rem;
+        
+
+        & h3 {
+            color: $color-1brand;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        & p {
+            line-height: 1.2rem;
+        }
+
+    }
+
+    &__descripcion {
+        text-align: center;
+        font-size: 1.2rem;
+        & h4 {
+            font-size: 1.1rem;
+        }
+    }
+
+}

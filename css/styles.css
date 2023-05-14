@@ -190,7 +190,6 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
 .caja-serviciosdetallados {
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 10rem;
   padding-top: 1%;
   padding-bottom: 3%;
 }
@@ -217,8 +216,22 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   box-shadow: 7px 7px 3px 1px rgba(82, 101, 140, 0.7);
   background-color: rgb(248, 249, 250);
   opacity: 0.9;
-  min-height: 35rem;
   padding-top: 1.5rem;
+}
+@media only screen and (max-width: 4000px) {
+  .card-serviciosdetallados {
+    min-height: 38rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card-serviciosdetallados {
+    min-height: 42rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .card-serviciosdetallados {
+    min-height: fit-content;
+  }
 }
 .card-serviciosdetallados__title {
   text-align: center;
@@ -245,6 +258,32 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   list-style-type: square;
   list-style-position: outside;
   padding-left: 2rem;
+}
+
+.caja-alianzas {
+  background-image: url(../img/p-alianza-jsu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.titulo-alianzas {
+  color: white;
+  font-size: 1.1rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  justify-items: center;
+  background-color: #52658C;
+  opacity: 0.8;
+  max-width: 80%;
+}
+.titulo-alianzas h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .pasos {

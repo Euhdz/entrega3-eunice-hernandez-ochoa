@@ -13,12 +13,14 @@ $imgurl in $imagenesbgserv {
 }
 
 
+
+
 .caja-serviciosdetallados {
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 10rem;
     padding-top: 1%;
     padding-bottom: 3%;
+
 }
 
 
@@ -43,6 +45,8 @@ $imgurl in $imagenesbgserv {
 
 }
 
+
+
 .card-serviciosdetallados {
 
     border: thin solid $color-1brand;
@@ -50,8 +54,19 @@ $imgurl in $imagenesbgserv {
     box-shadow: 7px 7px 3px 1px rgba($color-1brand, $alpha: 0.7);
     background-color: $color-bg2;
     opacity: .9;
-    min-height: 35rem;
     padding-top: 1.5rem;
+
+    @media only screen and (max-width: 4000px) {
+        min-height: 38rem;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        min-height: 42rem;
+    }
+
+    @media only screen and (max-width: 992px) {
+        min-height: fit-content;
+    }
 
 
     &__title {

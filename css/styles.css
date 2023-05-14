@@ -171,12 +171,27 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   text-align: left;
 }
 
+.bgimg-servicios--coffeebreak {
+  background-image: url("../img/s-coffeebreak-detalle.jpg");
+}
+
+.bgimg-servicios--desayuno {
+  background-image: url("../img/s-desayuno-detalle.jpg");
+}
+
+.bgimg-servicios--comida {
+  background-image: url("../img/s-comida-detalle.jpg");
+}
+
+.bgimg-servicios--cocktail {
+  background-image: url("../img/s-cocktail-detalle-canape.jpg");
+}
+
 .caja-serviciosdetallados {
-  background-image: url(../img/s-coffeebreak-detalle.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 10rem;
-  padding-top: 3%;
+  padding-top: 1%;
   padding-bottom: 3%;
 }
 
@@ -189,7 +204,6 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   justify-items: center;
   background-color: #52658C;
   opacity: 0.8;
-  max-width: 80%;
 }
 .titulo-serviciosdetallados h2 {
   color: white;
@@ -219,11 +233,18 @@ input.btn.btn-secondary.btn-lg.btn-enviar {
   line-height: 1.2rem;
 }
 .card-serviciosdetallados__descripcion {
-  text-align: center;
+  text-align: start;
   font-size: 1.2rem;
+  padding-left: 1rem;
 }
 .card-serviciosdetallados__descripcion h4 {
   font-size: 1.1rem;
+  font-weight: bold;
+}
+.card-serviciosdetallados__descripcion ul {
+  list-style-type: square;
+  list-style-position: outside;
+  padding-left: 2rem;
 }
 
 .pasos {

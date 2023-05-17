@@ -69,6 +69,10 @@ header {
 .card-servicios__title :hover {
   transform: scale(1.2);
 }
+.card-servicios__title a {
+  color: #52658c;
+  text-decoration: none;
+}
 .card-servicios__texto {
   text-align: center;
   min-height: 5.5rem;

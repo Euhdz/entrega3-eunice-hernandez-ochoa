@@ -10,6 +10,10 @@
         :hover {
             transform: scale(1.2);
         }
+        a {
+            color: rgba($color-1brand, $alpha: 1);
+            text-decoration: none;
+        }
     }
 
 
